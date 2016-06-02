@@ -2,7 +2,7 @@
 title: Browser compatibility
 ---
 
-Polymer 1.0+ works in the _latest two versions_ of all major browsers: Safari 8+, IE 11+, and the
+Polymer 1.0+ works in the _latest two versions_ of all major browsers and some even older browsers: Safari 7+, IE 11+, and the
 evergreen Chrome, Firefox, and Edge.
 
 ## Browser support
@@ -19,8 +19,8 @@ With the polyfills, Polymer works in these browsers:
 
 <table>
 <thead>
-  <tr><th></th><th>Chrome</th><th>Firefox</th><th>IE&nbsp;11+/Edge</th><th>Safari 8+</th><th>Chrome
-  (Android)</th><th>Safari (iOS&nbsp;8.1)</th></tr>
+  <tr><th></th><th>Chrome</th><th>Firefox</th><th>IE&nbsp;11+/Edge</th><th>Safari 7+</th><th>Chrome
+  (Android)</th><th>Safari (iOS&nbsp;7.1)</th></tr>
 </thead>
 <tr>
   <td class="feature-title"><a href="http://www.html5rocks.com/en/tutorials/webcomponents/template/">Template</a></td>
@@ -91,7 +91,7 @@ Notes:
 
 #### Should I use webcomponents-lite.js or webcomponents.js?
 
-We recommend using the `webcomponents-lite.js` version of the polyfills with Polymer 1.0+. This
+We recommend using the `webcomponents-lite.js` version of the polyfills with Polymesr 1.0+. This
 version is designed to be used with [Shady DOM](https://www.polymer-project.org/1.0/blog/shadydom.html),
 and does not contain the full Shadow DOM polyfill.
 
