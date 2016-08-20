@@ -16,7 +16,7 @@ Polymer App Toolbox包括了使用Polymer用来构建
 -   基于
     [app storage elements](https://elements.polymer-project.org/elements/app-storage)的本地存储支持.
 -   使用service worker进行离线缓存，便于持续改进.
--   内置工具支持应用的多种访问：基于HTTP/2的非绑定服务器摄像头，基于HTTP/1.的绑定式推送。
+-   内置工具支持应用的多种访问：基于HTTP/2的非绑定服务器推送，基于HTTP/1.的绑定式推送。
 
 可以单独使用某个组件或同时使用多个组件来构建全功能的rogressive web app。最重要的是，每个组件都是_additive_。对于一个简单应用来说，你只需要app-layout。随着应用越来越复杂，不断添加路由，离线缓存，当然这些功能都需要一个高性能服务器来支持。
 
